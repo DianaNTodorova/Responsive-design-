@@ -1,13 +1,15 @@
 $titel-font: "Poppins", sans-serif;
 $small-text-font: "Source Sans Pro", sans-serif;
-
+body {
+  max-width: 1154px;
+  width: 100%;
+  margin: auto;
+}
 .nav_bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 40%;
-  margin-left: 10%;
-  margin-right: 10%;
   margin-top: 2rem;
   &_elements {
     display: flex;
@@ -33,7 +35,8 @@ $small-text-font: "Source Sans Pro", sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 80%;
+  max-width: 1154px;
+  width: 100%;
   margin: auto;
   &_content {
     display: flex;
@@ -69,8 +72,9 @@ $small-text-font: "Source Sans Pro", sans-serif;
 @media screen and (max-width: 800px) {
   .nav_bar {
     width: 80%;
+    margin-left: 10%;
     &_elements {
-      width: 100%;
+      width: 80%;
     }
   }
   .container {
