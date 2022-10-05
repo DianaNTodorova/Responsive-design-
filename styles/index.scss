@@ -1,0 +1,138 @@
+$titel-font: "Poppins", sans-serif;
+$small-text-font: "Source Sans Pro", sans-serif;
+
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2rem;
+  &_elements {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    li {
+      margin: 0 1em;
+      padding-top: 10px;
+      font-family: $small-text-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #242635;
+    }
+  }
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  &_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 416px;
+    width: 100%;
+    h1 {
+      font-family: $titel-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 90px;
+      line-height: 102px;
+      letter-spacing: -2px;
+      color: #242635;
+      margin-bottom: 20px;
+      margin-right: 10px;
+    }
+    p {
+      font-family: $small-text-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+      color: #242635;
+      max-width: 416px;
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav_bar {
+    width: 80%;
+    &_elements {
+      width: 100%;
+    }
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    &_content {
+      text-align: center;
+      max-width: 574px;
+      width: 100%;
+      margin-top: 40%;
+      margin-bottom: 10%;
+      h1 {
+        font-family: $titel-font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 72px;
+        line-height: 83px;
+        letter-spacing: -1.6px;
+      }
+      p {
+        width: 100%;
+        max-width: 574px;
+      }
+    }
+  }
+  .large_image {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    &_content {
+      text-align: center;
+      max-width: 211px;
+      width: 100%;
+      margin-top: 40%;
+      margin-bottom: 10%;
+      p {
+        font-family: $small-text-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #242635;
+      }
+      h1 {
+        font-family: $titel-font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -0.8px;
+        color: #242635;
+      }
+    }
+  }
+}

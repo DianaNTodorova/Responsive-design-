@@ -1,0 +1,186 @@
+.nav_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2rem;
+}
+
+.nav_bar_elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 60%;
+}
+
+.nav_bar_elements li {
+  margin: 0 1em;
+  padding-top: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242635;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.container_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 416px;
+  width: 100%;
+}
+
+.container_content h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 102px;
+  letter-spacing: -2px;
+  color: #242635;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.container_content p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  color: #242635;
+  max-width: 416px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .nav_bar {
+    width: 80%;
+  }
+  .nav_bar_elements {
+    width: 100%;
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+  }
+  .container_content {
+    text-align: center;
+    max-width: 574px;
+    width: 100%;
+    margin-top: 40%;
+    margin-bottom: 10%;
+  }
+  .container_content h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 83px;
+    letter-spacing: -1.6px;
+  }
+  .container_content p {
+    width: 100%;
+    max-width: 574px;
+  }
+  .large_image {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+  }
+  .container_content {
+    text-align: center;
+    max-width: 211px;
+    width: 100%;
+    margin-top: 40%;
+    margin-bottom: 10%;
+  }
+  .container_content p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #242635;
+  }
+  .container_content h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.8px;
+    color: #242635;
+  }
+}
+/*# sourceMappingURL=index.css.map */
