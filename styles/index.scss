@@ -23,6 +23,10 @@ $small-text-font: "Source Sans Pro", sans-serif;
       line-height: 22px;
       color: #242635;
     }
+    a:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
   }
 }
 .container {

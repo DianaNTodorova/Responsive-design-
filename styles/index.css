@@ -37,6 +37,11 @@
   color: #242635;
 }
 
+.nav_bar_elements a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
