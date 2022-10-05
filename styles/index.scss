@@ -70,6 +70,9 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  body {
+    max-width: 617px;
+  }
   .nav_bar {
     width: 80%;
     margin-left: 10%;
@@ -110,6 +113,9 @@ body {
 }
 
 @media screen and (max-width: 320px) {
+  body {
+    max-width: 256px;
+  }
   .nav_bar_elements {
     display: none;
   }
